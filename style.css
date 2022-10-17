@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#btn_news {
+  background: none;
+  padding: 10px 20px;
+  box-shadow: none;
+  border: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#header {
+  background-color: lightgrey;
+  padding: 10px 20px;
+  box-shadow: none;
+  color: black;
+  border-radius: 30px;
+}
+
+img{
+  height: auto;
+  width: 100px;
+}
+
+.site-header{
+  display: flex;
+  background-color: grey;
+  justify-content: space-between;
+  padding-left: 30px; 
+  align-items: center;
+}
+
+.middle-content img {
+  height: auto;
+  width: 100%;
+  margin: O auto;
+  display: block;
+
+.middle-content{ 
+  width: 100%;
+}
+
+h1 {
+  font-family: arial;
+  
+
+h2 {
+  font-size: 15px;
+}
+
+ footer {
+  border-top: 1px solid;
+  margin-top: 200px;
+}
