@@ -1,3 +1,7 @@
+*{ box-sizing: border-box;
+ font-size: 12px; 
+ color:black;}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -12,7 +16,8 @@ html, body {
   font-size: 12px;
 }
 
-#header {
+
+.btn {
   background-color: lightgrey;
   padding: 10px 20px;
   box-shadow: none;
@@ -20,15 +25,26 @@ html, body {
   border-radius: 30px;
 }
 
+.btn_visite{
+  margin:0px 10px 0px 10px;
+}
+
+.btn_billeterie{
+  margin:0px 10px 0px 10px;
+}
+
+.btn_agenda{
+  margin:0px 10px 0px 10px;
+}
+
 img{
   height: auto;
   width: 100px;
 }
 
-.site-header{
+.logo{
   display: flex;
-  background-color: grey;
-  justify-content: space-between;
+  backgroundcolor:: grey;
   padding-left: 30px; 
   align-items: center;
 }
